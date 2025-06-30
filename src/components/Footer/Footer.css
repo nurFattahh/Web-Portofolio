@@ -1,0 +1,31 @@
+/* Footer Styles */
+.footer-section {
+  background: linear-gradient(90deg, rgb(73, 72, 72) 0%, rgb(0, 0, 0) 100%);
+  opacity: 0.9;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;        /* Teks di tengah */
+  }
+  
+  .footer-section a {
+    color: #ffc107;             /* Warna kuning untuk tautan */
+    text-decoration: none;      /* Hilangkan garis bawah pada tautan */
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+  }
+  
+  .footer-section .container {
+    max-width: 960px;            /* Lebar maksimum untuk konten footer */
+    margin: 0 auto;              /* Centang konten */
+  }
+  
+  .footer-section p {
+    margin: 1px 0;              /* Margin antar paragraf */
+  }
+  
+  .footer-section .text-white {
+    color: #fff;                /* Memastikan teks tetap putih */
+  }
+  

@@ -1,0 +1,159 @@
+#home {
+    padding: 60px 0;
+    color: #f8f9fa; /* Teks terang */
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#home img {
+    background-color: transparent !important;
+}
+
+
+#home h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffdd57; /* Aksen kuning */
+}  
+
+#home p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #e0e0e0; /* Teks abu terang */
+}
+
+#home img {
+    max-width: 85%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: transparent !important; /* Atasi putih di gambar */
+}
+
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-overlay-box {
+    position: absolute;
+    top: -20px; /* Bisa kamu ubah sesuai kebutuhan */
+    left: -20px;
+    width: 120px;
+    height: 120px;
+    background-color: #ffdd57; /* Warna kuning aksen */
+    border-radius: 30px 0 50% 20px;
+    z-index: 2;
+    opacity: 0.95;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .corner-circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #ffdd57;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 0.85;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .corner-circle.left {
+    bottom: 110px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .corner-circle.right {
+    bottom: 300px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+  }
+  
+
+  .body-overlay-box {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 550px;
+    height: 5px;
+    background-color: #ffdd57;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    z-index: 3;
+  }
+  
+
+/* Social Media */
+.social-media a {
+    font-size: 36px;
+    color: #f8f9fa;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ffdd57; /* Hover kuning */
+}
+
+.social-text {
+    font-size: 14px;
+    color: #f8f9fa;
+}
+
+/* Connect Text */
+.connect-text {
+    color: #ffdd57;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #home {
+    padding: 40px 15px;
+  }
+
+  #home h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  #home p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0 10px;
+  }
+
+  .social-media a {
+    font-size: 28px;
+  }
+
+  .social-text {
+    font-size: 12px;
+  }
+
+  .corner-circle.left {
+    left: 20px;
+    bottom: 80px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .corner-circle.right {
+    right: 20px;
+    bottom: 200px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .body-overlay-box {
+    width: 80%;
+    height: 5px;
+  }
+}
+

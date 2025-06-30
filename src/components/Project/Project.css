@@ -1,0 +1,185 @@
+/* Bagian Portfolio */
+#project {
+  padding: 70px 20px;
+    background-color: #212529; /* Background gelap */
+    color: #f8f9fa; /* Teks terang */
+  }
+  
+  #project h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .works-text {
+    color: #ffdd57;
+  }
+
+  /* Styling Project */
+  .project {
+    background-color: #2c3035; /* Abu-abu gelap */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    padding: 15px;
+    overflow: hidden;
+    border: 2px solid #3a3f44;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  .project-desc {
+    height: 90px; /* Atur sesuai kebutuhan */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+  
+    -webkit-box-orient: vertical;
+  }
+  
+  
+  
+  .project-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fafaf8;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .project-title::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: #ffdd57; /* Garis bawah kuning */
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Carousel - Agar gambar memenuhi ruang */
+  .carousel {
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    height: 300px; /* Tinggi carousel */
+    display: flex; /* Menggunakan flexbox */
+    margin: auto;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pastikan gambar memenuhi ruang */
+    border-radius: 10px;
+    border: 2px solid #3a3f44; /* Border gelap */
+  }
+  
+  .carousel-inner:hover img {
+    border: 4px solid #ffdd57; /* Border kuning */
+    cursor: pointer;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.273);
+  }
+  
+  .project-desc {
+    font-size: 1rem;
+    color: #ddd;
+    text-align: justify;
+    padding: 10px 0;
+  }
+  
+
+  
+  .project-buttons .btn {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+  }
+  .image-box {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Sesuaikan tinggi carousel */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.main-img {
+  height: 100%;
+  width: auto;
+  z-index: 2;
+  position: relative;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.blur-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px) brightness(0.7);
+  z-index: 1;
+  transform: scale(1.2);
+}
+
+.btn.btn-warning {
+  background-color: #ffe657 !important;  /* kuning custom */
+  border-color: #ffdd57 !important;
+  color: #212529 !important; /* teks gelap */
+}
+
+.btn.btn-warning:hover {
+  background-color: #e6c84fe9 !important;  /* hover sedikit lebih gelap */
+  border-color: #e6c84fe9 !important;
+  color: #000 !important;
+}
+
+
+  /* Responsiveness */
+  @media (max-width: 1200px) {
+    .project-title {
+      font-size: 1.6rem;
+    }
+    .carousel-inner {
+      height: 250px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #portfolio h2 {
+      font-size: 2rem;
+    }
+    .project-title {
+      font-size: 1.4rem;
+    }
+    .carousel-inner {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .project-title {
+      font-size: 1.2rem;
+    }
+    .carousel-inner {
+      height: 150px;
+    }
+  }
+  

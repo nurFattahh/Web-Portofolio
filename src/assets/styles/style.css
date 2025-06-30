@@ -1,0 +1,15 @@
+#root {
+    background: linear-gradient(135deg, #1c1c1c, #444444);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    scroll-padding-top: 2rem; /* Gantikan 80px dengan tinggi navbar Anda */
+    scroll-behavior: smooth;
+}

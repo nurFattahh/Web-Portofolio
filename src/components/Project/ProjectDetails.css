@@ -1,0 +1,145 @@
+.project-detail-section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .project-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #2f2f2f;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  
+  .project-detail-title {
+    font-size: 36px;
+    color: #ffdd57;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .project-detail-date {
+    font-size: 16px;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project-detail-description {
+    font-size: 18px;
+    color: #ddd;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  h4 {
+    color: #ffdd57;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    margin-left: 20px;
+    color: #ccc;
+  }
+  
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tech-badge {
+    background-color: #444;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .image-title {
+    font-size: 24px;
+    color: #ffdd57;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  
+  .detail-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .detail-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-details-buttons {
+    margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .project-details-buttons a {
+
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  
+  .back-button {
+    display: block;
+    margin: 40px auto 0;
+    text-align: center;
+    color: #aaa;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .project-detail-description {
+      font-size: 16px;
+    }
+    .detail-img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      border-radius: 10px;
+      object-fit: contain;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto; /* Center image horizontally */
+    }
+    
+    .image-gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
