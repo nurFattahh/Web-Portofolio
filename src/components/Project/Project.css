@@ -172,6 +172,14 @@
     .carousel-inner {
       height: 200px;
     }
+    .project-desc {
+      height: 90px; /* Atur sesuai kebutuhan */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      font-size: 13px;
+      -webkit-box-orient: vertical;
+    }
   }
   
   @media (max-width: 576px) {
