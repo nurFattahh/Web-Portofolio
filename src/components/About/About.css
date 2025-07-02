@@ -145,7 +145,7 @@
     .about-title {
       font-size: 1.8rem;
     }
-  
+    
     .about-description,
     .about-closing,
     .about-connect {
@@ -155,7 +155,11 @@
     .about-subtitle {
       font-size: 1.3rem;
     }
-  
+
+    h3.skillset-title {
+      font-size: 24px;
+    }
+
     .skills-list {
       font-size: 1rem;
     }
@@ -167,6 +171,15 @@
     .skills-list strong {
       font-size: 1rem;
     }
+    
+    div.skill-box {
+      max-width: 40%;
+      height: auto;
+    }
+
+
   }
+
+  
   
   
