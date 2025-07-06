@@ -96,6 +96,38 @@ const projects = [
   }, 
   {
     id: 4,
+    name: "Computer Vision - Face Detection",
+    shortDescription: "A real-time face detection system using YOLOv5, trained on a custom dataset and deployed on a local machine for live video inference.",
+    description: `This project involves developing a real-time face detection system using YOLOv5. A custom face dataset was annotated using Roboflow, then trained using the YOLOv5 framework. The model is capable of performing inference on live video feeds, including CCTV streams and webcam input, directly on a local computer without cloud dependency. This makes the system efficient and privacy-friendly.
+  
+  Key challenges tackled in this project include optimizing detection speed, ensuring robust accuracy with limited training data, and implementing an interface for live detection. The solution is lightweight and suitable for applications such as surveillance, smart home systems, or event monitoring.`,
+    date: "June 2025",
+    images: [
+      "FaceDetection/fd1.png",
+      "FaceDetection/fd2.png",
+      "FaceDetection/fd3.png",
+      "FaceDetection/fd4.png",
+      "FaceDetection/fd5.png"
+    ],
+    github: "https://github.com/nurFattahh/face_detection",
+    demo: "https://yourdemo.com/face-detection", // Ganti jika ada video atau demo online
+    features: [
+      "Real-time face detection with YOLOv5",
+      "Custom dataset annotation using Roboflow",
+      "Trained on YOLOv5 with custom anchors and augmentation",
+      "Inference on local computer from webcam or CCTV",
+      "Optimized for lightweight, offline usage"
+    ],
+    tech: [
+      "Python",
+      "YOLOv5",
+      "OpenCV",
+      "Roboflow",
+      "PyTorch"
+    ]
+  },
+  {
+    id: 5,
     name: "Computer Vision - People Counter",
     shortDescription: "A real-time people counting system using a camera and object detection model to monitor foot traffic in specific areas.",
     description: "This project implements a real-time people counting system using computer vision techniques. A camera captures video input, and a YOLO-based object detection model processes each frame to detect and count the number of people passing through predefined zones. It is designed to help analyze foot traffic in locations such as malls, offices, or events. The counter updates dynamically and can be extended to include data analytics or notifications. The system focuses on efficiency, low latency, and easy deployment using lightweight frameworks.",
@@ -125,7 +157,7 @@ const projects = [
     ]
   },  
   {
-    id: 5,
+    id: 6,
     name: "Embedded System - Accident Detection",
     shortDescription: "A safety monitoring system that uses ESP32 to detect accidents and automatically send alerts to Telegram via HTTP, ensuring quick emergency response.",
     description: "This project is a real-time accident detection system developed using ESP32. It monitors acceleration data from an onboard accelerometer to detect abnormal motion patterns that may indicate a collision or accident. When an incident is detected, the device immediately sends a notification to a designated Telegram chat via a bot using HTTP API calls. This allows family members or emergency responders to be promptly informed. The system is designed to be compact, cost-effective, and easily integrated into personal vehicles or wearables for workers in hazardous environments.",
@@ -154,7 +186,7 @@ const projects = [
     ]
   },   
   {
-    id: 6,
+    id: 7,
     name: "Mobile Apps - Ecoplants",
     shortDescription: "A mobile app for buying and selling plants, featuring a community and donation system to promote environmental awareness.",
     description: "Ecoplants is a mobile application designed to facilitate online buying and selling of plants. Beyond just a marketplace, Ecoplants includes a community feature where plant enthusiasts can interact, and a donation system to support environmental conservation activities. In this project, I was responsible for backend development—building and integrating RESTful APIs using Golang, Supabase as the backend service, and SQL for database management. The frontend was developed using Flutter to ensure cross-platform compatibility and a modern user experience.",
@@ -184,7 +216,7 @@ const projects = [
     ]
   },  
   {
-    id: 7,
+    id: 8,
     name: "IoT - Monitoring System Design",
     description: "This is a description of Project 4. It was developed using Django.",
     date: "April 2023",
