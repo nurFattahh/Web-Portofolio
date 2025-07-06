@@ -1,3 +1,5 @@
+import { automation, facedetection, fatiguard, gasmonitoring, webportfolio, ecoplants } from "./ImageImport.js";
+
 const projects = [
   {
     id: 1,
@@ -8,9 +10,9 @@ const projects = [
       "This personal landing page was built using React to showcase my profile, portfolio, and achievements in a clean, responsive layout. The project incorporates dynamic UI elements like carousels (Swiper.js), modals for enlarged image previews, and smooth scroll-triggered animations. It follows a dark theme aesthetic and emphasizes clarity and modern web practices. The site also features routing for each section and is optimized for various screen sizes.",
     date: "January 2023",
     images: [
-      "WebPortfolio/personalWeb.png",
-      "WebPortfolio/personalWeb3.png",
-      "WebPortfolio/personalWeb2.png"
+      webportfolio.webportfolio1,
+      webportfolio.webportfolio2,
+      webportfolio.webportfolio3,
     ],
     github: "https://github.com/yourrepo1",
     demo: "https://yourvideo.com/demo1",
@@ -37,12 +39,12 @@ const projects = [
       "Fatiguard is a wearable monitoring system designed to detect early signs of fatigue in workers, especially in high-risk environments like construction sites. The device collects physiological data such as heart rate (via ECG sensor) and body temperature, processes it using a lightweight AI model deployed on an ESP32 microcontroller, and gives real-time feedback. The goal is to prevent overexertion-related accidents. I was responsible for system integration, model deployment, and communication between edge devices and the gateway.",
     date: "June 2025",
     images: [
-      "Fatiguard/fatiguard1.png",
-      "Fatiguard/fatiguard2.png",
-      "Fatiguard/fatiguard3.png",
-      "Fatiguard/fatiguard4.png",
-      "Fatiguard/fatiguard5.png",
-      "Fatiguard/fatiguard6.png",
+      fatiguard.fatiguard1,
+      fatiguard.fatiguard2,
+      fatiguard.fatiguard3,
+      fatiguard.fatiguard4,
+      fatiguard.fatiguard5,
+      fatiguard.fatiguard6
     ],
     github: "https://github.com/NurFattahh/fatigue_detection", // ubah jika kamu punya repo khusus
     demo: "#", // bisa ganti dengan video atau demo link jika tersedia
@@ -71,10 +73,10 @@ const projects = [
       "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
     date: "March 2023",
     images: [
-      "Automation/db2.png",
-      "Automation/db1.png",
-      "Automation/db3.png",
-      "Automation/db4.png"
+      automation.automation1,
+      automation.automation2,
+      automation.automation3,
+      automation.automation4,
     ],
     github: "https://github.com/nurFattahh/HA-web-db-automation",
     demo: "#", // Placeholder if no live demo
@@ -103,11 +105,11 @@ const projects = [
   Key challenges tackled in this project include optimizing detection speed, ensuring robust accuracy with limited training data, and implementing an interface for live detection. The solution is lightweight and suitable for applications such as surveillance, smart home systems, or event monitoring.`,
     date: "June 2025",
     images: [
-      "FaceDetection/fd1.png",
-      "FaceDetection/fd2.png",
-      "FaceDetection/fd3.png",
-      "FaceDetection/fd4.png",
-      "FaceDetection/fd5.png"
+      facedetection.facedetection1,
+      facedetection.facedetection2,
+      facedetection.facedetection3,
+      facedetection.facedetection4,
+      facedetection.facedetection5
     ],
     github: "https://github.com/nurFattahh/face_detection",
     demo: "https://yourdemo.com/face-detection", // Ganti jika ada video atau demo online
@@ -192,12 +194,14 @@ const projects = [
     description: "Ecoplants is a mobile application designed to facilitate online buying and selling of plants. Beyond just a marketplace, Ecoplants includes a community feature where plant enthusiasts can interact, and a donation system to support environmental conservation activities. In this project, I was responsible for backend development—building and integrating RESTful APIs using Golang, Supabase as the backend service, and SQL for database management. The frontend was developed using Flutter to ensure cross-platform compatibility and a modern user experience.",
     date: "March 2023",
     images: [
-      "Ecoplants/ecoplants1.png",
-      "Ecoplants/ecoplants3.png",
-      "Ecoplants/ecoplants4.png",
-      "Ecoplants/ecoplants5.png",
-      "Ecoplants/ecoplants6.png",
-      "Ecoplants/ecoplants8.png",
+      ecoplants.ecoplants1,
+      ecoplants.ecoplants3,
+      ecoplants.ecoplants4,
+      ecoplants.ecoplants5,
+      ecoplants.ecoplants6,
+      ecoplants.ecoplants7,
+      ecoplants.ecoplants8,
+      ecoplants.ecoplants9
     ],
     github: "https://github.com/nurFattahh/ecoplants",
     demo: "https://example.com/demo-ecoplants", // Replace with actual video/demo link
@@ -220,7 +224,12 @@ const projects = [
     name: "IoT - Monitoring System Design",
     description: "This is a description of Project 4. It was developed using Django.",
     date: "April 2023",
-    images: ["GasMonitoring/monitoring (1).png", "GasMonitoring/monitoring (2).png", "GasMonitoring/monitoring (3).png", "GasMonitoring/monitoring (4).png"],
+    images: [
+      gasmonitoring.gasmonitoring1,
+      gasmonitoring.gasmonitoring2,
+      gasmonitoring.gasmonitoring3,
+      gasmonitoring.gasmonitoring4
+    ],
     github: "https://github.com/yourrepo1",
     demo: "https://yourvideo.com/demo1"
   },

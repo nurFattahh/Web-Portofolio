@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css"; 
 
+import profil_image from "../../assets/Images/Fattah.png";
+
 const Home = () => (
   <section id="home" className="container my-5">
     <div className="row align-items-center">
       <div className="col-md-6">
-        <img src="/Fattah.png" className="img-fluid rounded" alt="Your Photo" />
+        <img src={profil_image} className="img-fluid rounded" alt="Your Photo" />
         <div className="image-overlay-box"></div>
         <div className="body-overlay-box"></div>
         <div className="corner-circle left"></div>

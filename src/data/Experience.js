@@ -1,7 +1,9 @@
+import { certs, docs } from "./ImageImport.js";
+
 const certifications = [
   {
     id: 1,
-    image: "Experiences/cert1.jpg",
+    image: certs.cert1,
     title: "Basic Programming Assistant Practicum",
     description:
       "Served as a teaching assistant for the Basic Programming Practicum, guiding a class of 40 students in C++ fundamentals, including syntax, control structures, and basic algorithms.",
@@ -10,7 +12,7 @@ const certifications = [
   },
   {
     id: 2,
-    image: "Experiences/cert2.jpg",
+    image: certs.cert2,
     title: "Digital System Assistant Practicum",
     description:
       "Assisted in teaching digital system fundamentals to 40 students, covering logic gates, flip-flops, multiplexers, arithmetic circuits, and circuit simulation using Multisim.",
@@ -19,49 +21,49 @@ const certifications = [
   },
   {
     id: 3,
-    image: "Experiences/cert3.jpg",
+    image: certs.cert3,
     title: "Data Structure and Algorithm Assistant Practicum",
     description:
       "Helped deliver practical sessions on data structures and algorithms, including stacks, queues, linked lists, and trees, to a class of 40 students.",
     date: "2024",
-    docs: ["Experiences/Docs/docs32.jpg","Experiences/Docs/docs31.jpg"]
+    docs: [docs.docs1, docs.docs2,]
   },
   {
     id: 4,
-    image: "Experiences/cert4.jpg",
+    image: certs.cert4,
     title: "Microprocessor and Microcontroller Assistant Practicum",
     description:
       "Assisted in microcontroller and microprocessor practicals, teaching I/O operations, timers, interrupts, and communication protocols to 40 students.",
     date: "2024",
-    docs: ["Experiences/Docs/docs41.jpg","Experiences/Docs/docs43.jpg"]
+    docs: [docs.docs3, docs.docs4]
   },
   {
     id: 5,
-    image: "Experiences/cert5.jpg",
+    image: certs.cert5,
     title:
       "Workshop on Embedded Systems and Cyber-Physical Systems Teaching Assistant",
     description:
       "Participated as a teaching assistant in a workshop focused on embedded systems and cyber-physical systems, guiding participants through hands-on projects and real-time integration.",
     date: "2024",
-    docs: ["Experiences/Docs/docs11.jpg"]
+    docs: [docs.docs5]
   },
   {
     id: 6,
-    image: "Experiences/cert6.jpg",
+    image: certs.cert6,
     title: "Sustainability Sprint Hackathon – Penang, Malaysia",
     description:
       "Competed in an international hackathon to design future city solutions. Collaborated with a global team to develop a working application prototype within 24 hours.",
     date: "2024",
-    docs: ["Experiences/Docs/docs61.jpg","Experiences/Docs/docs62.jpg"]
+    docs: [docs.docs6, docs.docs7]
   },
   {
     id: 7,
-    image: "Experiences/cert7.jpg",
+    image: certs.cert7,
     title: "Embedded System Assistant Practicum",
     description:
       "Assisted in an Embedded Systems practicum for second years students, focusing on real-time systems, FSM, fault tolerance, and low power using Arduino to 40 students.",
     date: "2025",
-    docs: ["Experiences/Docs/docs71.jpg","Experiences/Docs/docs11.jpg"]
+    docs: [docs.docs8, docs.docs9]
   }
 ];
 
