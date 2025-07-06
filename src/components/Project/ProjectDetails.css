@@ -119,6 +119,41 @@
     text-decoration: underline;
     cursor: pointer;
   }
+
+  /* Modal container */
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Modal content wrapper */
+.modal-content-img {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+/* ✅ INI bagian yang mengatur gambar saat modal dibuka */
+.modal-content-img img {
+  width: auto;
+  max-width: 90vw;
+  height: auto;
+  max-height: 80vh; /* ⬅️ Batasi tinggi agar tidak terlalu panjang */
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
   
   @media (max-width: 768px) {
     .project-detail-description {

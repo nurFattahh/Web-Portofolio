@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import projects from "../../data/Projects";
 import "./ProjectDetails.css";
@@ -6,9 +6,20 @@ import "./ProjectDetails.css";
 const ProjectDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [modalImg, setModalImg] = useState(null);
   const project = projects.find((p) => p.id === parseInt(id));
 
-  if (!project) return <p className="text-center mt-5 text-light">Project not found</p>;
+  const openModal = (img) => {
+    setModalImg(img.startsWith("/") ? img : `/${img}`);
+  };
+
+  const closeModal = () => {
+    setModalImg(null);
+  };
+
+  if (!project) {
+    return <p className="text-center mt-5 text-light">Project not found</p>;
+  }
 
   return (
     <section className="project-detail-section">
@@ -43,22 +54,33 @@ const ProjectDetail = () => {
         <div className="image-gallery">
           {project.images.map((img, idx) => (
             <img
-            key={idx}
-            src={img.startsWith("/") ? img : `/${img}`} // tambahkan slash depan jika belum ada
-            alt={`project-${idx}`}
-            className="detail-img"
-          />
+              key={idx}
+              src={img.startsWith("/") ? img : `/${img}`}
+              alt={`project-${idx}`}
+              className="detail-img"
+              onClick={() => openModal(img)}
+            />
           ))}
         </div>
 
         <div className="project-details-buttons mt-2">
           {project.github && (
-            <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-warning mr-2">
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-warning mr-2"
+            >
               GitHub
             </a>
           )}
           {project.demo && (
-            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn btn-outline-light">
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-light"
+            >
               Live Demo
             </a>
           )}
@@ -68,6 +90,16 @@ const ProjectDetail = () => {
           ← Back to Projects
         </div>
       </div>
+
+      {/* Modal Preview */}
+      {modalImg && (
+        <div className="image-modal" onClick={closeModal}>
+          <div className="modal-content-img" onClick={(e) => e.stopPropagation()}>
+            <img src={modalImg} alt="Enlarged preview" />
+            <button className="close-modal" onClick={closeModal}>×</button>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
