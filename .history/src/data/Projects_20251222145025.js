@@ -1,9 +1,9 @@
-import { automation, arrhythmias, facedetection, fatiguard, gasmonitoring, webportfolio, ecoplants } from "./ImageImport.js";
+import { automation, arrhythmia, facedetection, fatiguard, gasmonitoring, webportfolio, ecoplants } from "./ImageImport.js";
 
 const projects = [
   {
     id: 1,
-    name: "Signal Processing - Arrhythmia Detection",
+    name: "Thesis - Arrhythmia Detection",
     shortDescription:
       "Undergraduate thesis on real-time ECG signal processing and R-peak detection using the Pan-Tompkins++ algorithm.",
     description:
@@ -72,7 +72,7 @@ const projects = [
     ]
   },  
   {
-    id: 5,
+    id: 3,
     name: "Website - Portfolio",
     shortDescription:
       "A responsive personal website developed using React. Styled with custom CSS and includes image carousels and modals.",
@@ -103,6 +103,37 @@ const projects = [
   },
   {
     id: 4,
+    name: "Automation - DB Cluster",
+    shortDescription: "Automation of high-availability database clusters using Ansible and Terraform to simplify infrastructure deployment.",
+    description:
+      "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
+    date: "March 2023",
+    images: [
+      automation.automation1,
+      automation.automation2,
+      automation.automation3,
+      automation.automation4,
+    ],
+    github: "https://github.com/nurFattahh/HA-web-db-automation",
+    demo: "#", // Placeholder if no live demo
+    features: [
+      "Infrastructure provisioning with Terraform",
+      "Automated DB cluster configuration using Ansible",
+      "High-availability setup with replication and failover",
+      "Modular and reusable infrastructure codebase",
+      "Logs and monitoring integrated into the deployment"
+    ],
+    tech: [
+      "Terraform",
+      "Ansible",
+      "PostgreSQL Cluster",
+      "Linux (Ubuntu/CentOS)",
+      "Cloud Virtual Machines",
+      "Shell Script"
+    ]
+  }, 
+  {
+    id: 5,
     name: "Computer Vision - Face Detection",
     shortDescription: "A real-time face detection system using YOLOv5, trained on a custom dataset and deployed on a local machine for live video inference.",
     description: `This project involves developing a real-time face detection system using YOLOv5. A custom face dataset was annotated using Roboflow, then trained using the YOLOv5 framework. The model is capable of performing inference on live video feeds, including CCTV streams and webcam input, directly on a local computer without cloud dependency. This makes the system efficient and privacy-friendly.
@@ -133,37 +164,6 @@ const projects = [
       "PyTorch"
     ]
   },
-  {
-    id: 3,
-    name: "Automation - DB Cluster",
-    shortDescription: "Automation of high-availability database clusters using Ansible and Terraform to simplify infrastructure deployment.",
-    description:
-      "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
-    date: "March 2023",
-    images: [
-      automation.automation1,
-      automation.automation2,
-      automation.automation3,
-      automation.automation4,
-    ],
-    github: "https://github.com/nurFattahh/HA-web-db-automation",
-    demo: "#", // Placeholder if no live demo
-    features: [
-      "Infrastructure provisioning with Terraform",
-      "Automated DB cluster configuration using Ansible",
-      "High-availability setup with replication and failover",
-      "Modular and reusable infrastructure codebase",
-      "Logs and monitoring integrated into the deployment"
-    ],
-    tech: [
-      "Terraform",
-      "Ansible",
-      "PostgreSQL Cluster",
-      "Linux (Ubuntu/CentOS)",
-      "Cloud Virtual Machines",
-      "Shell Script"
-    ]
-  }, 
   {
     id: 6,
     name: "Computer Vision - People Counter",

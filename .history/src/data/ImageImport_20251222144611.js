@@ -5,10 +5,9 @@ import cert4 from "../assets/Images/Experiences/cert4.jpg";
 import cert5 from "../assets/Images/Experiences/cert5.jpg";
 import cert6 from "../assets/Images/Experiences/cert6.jpg";
 import cert7 from "../assets/Images/Experiences/cert7.jpg";
-import cert8 from "../assets/Images/Experiences/cert8.jpg";
 
 export const certs = {
-    cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8
+    cert1, cert2, cert3, cert4, cert5, cert6, cert7
   };
   
 import docs1 from "../assets/Images/Experiences/Docs/docs31.jpg";
@@ -35,12 +34,12 @@ export const automation = {
 }
 
 import arrhythmia1 from "../assets/Images/Projects/Arrhythmia/aritmia1.png";
-import arrhythmia2 from "../assets/Images/Projects/Arrhythmia/aritmia2.jpg";
+import arrhythmia2 from "../assets/Images/Projects/Arrhythmia/aritmia2.png";
 import arrhythmia3 from "../assets/Images/Projects/Arrhythmia/aritmia3.png";
-import arrhythmia4 from "../assets/Images/Projects/Arrhythmia/aritmia4.jpg";
+import arrhythmia4 from "../assets/Images/Projects/Arrhythmia/aritmia4.png";
 import arrhythmia5 from "../assets/Images/Projects/Arrhythmia/aritmia5.png";
 
-export const arrhythmias = {
+export const arrhythmia = {
     arrhythmia1, arrhythmia2, arrhythmia3, arrhythmia4, arrhythmia5
 }
 

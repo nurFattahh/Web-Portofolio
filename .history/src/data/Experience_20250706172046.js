@@ -64,15 +64,6 @@ const certifications = [
       "Assisted in an Embedded Systems practicum for second years students, focusing on real-time systems, FSM, fault tolerance, and low power using Arduino to 40 students.",
     date: "2025",
     docs: [docs.docs8, docs.docs9]
-  },
-  {
-    id: 8,
-    image: certs.cert8,
-    title: "Workshop Smart Monitoring with NB-IoT: From MQTT to Grafana Visualization",
-    description:
-      "Participated as a teaching assistant in a workshop focused on IoT system, developing an energy usage monitoring system by collecting electricity data from PLN, transmitting it to InfluxDB via Telegraf, and visualizing the data in real-time using Grafana. Guiding participants through hands-on projects and real-time integration.",
-    date: "2025",
-    docs: [docs.docs10, docs.docs11]
   }
 ];
 

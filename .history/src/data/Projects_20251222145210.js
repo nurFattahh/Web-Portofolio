@@ -3,7 +3,7 @@ import { automation, arrhythmias, facedetection, fatiguard, gasmonitoring, webpo
 const projects = [
   {
     id: 1,
-    name: "Signal Processing - Arrhythmia Detection",
+    name: "Thesis - Arrhythmia Detection",
     shortDescription:
       "Undergraduate thesis on real-time ECG signal processing and R-peak detection using the Pan-Tompkins++ algorithm.",
     description:

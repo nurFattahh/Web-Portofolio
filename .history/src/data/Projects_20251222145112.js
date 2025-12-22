@@ -3,7 +3,7 @@ import { automation, arrhythmias, facedetection, fatiguard, gasmonitoring, webpo
 const projects = [
   {
     id: 1,
-    name: "Signal Processing - Arrhythmia Detection",
+    name: "Thesis - Arrhythmia Detection",
     shortDescription:
       "Undergraduate thesis on real-time ECG signal processing and R-peak detection using the Pan-Tompkins++ algorithm.",
     description:
@@ -37,6 +37,36 @@ const projects = [
       "Matplotlib"
     ]
   },  
+  {
+    id: 5,
+    name: "Website - Portfolio",
+    shortDescription:
+      "A responsive personal website developed using React. Styled with custom CSS and includes image carousels and modals.",
+    description:
+      "This personal landing page was built using React to showcase my profile, portfolio, and achievements in a clean, responsive layout. The project incorporates dynamic UI elements like carousels (Swiper.js), modals for enlarged image previews, and smooth scroll-triggered animations. It follows a dark theme aesthetic and emphasizes clarity and modern web practices. The site also features routing for each section and is optimized for various screen sizes.",
+    date: "January 2023",
+    images: [
+      webportfolio.webportfolio1,
+      webportfolio.webportfolio2,
+      webportfolio.webportfolio3,
+    ],
+    github: "https://github.com/yourrepo1",
+    demo: "https://yourvideo.com/demo1",
+    features: [
+      "Responsive design with smooth navigation",
+      "Project and certificate gallery using Swiper.js",
+      "Modal preview for enlarged views",
+      "Scroll-triggered animations",
+      "Dark theme aesthetic"
+    ],
+    tech: [
+      "React.js",
+      "CSS3",
+      "Bootstrap",
+      "Swiper.js",
+      "React Router"
+    ]
+  },
   {
     id: 2,
     name: "Wearable Device - Fatiguard",
@@ -72,35 +102,36 @@ const projects = [
     ]
   },  
   {
-    id: 5,
-    name: "Website - Portfolio",
-    shortDescription:
-      "A responsive personal website developed using React. Styled with custom CSS and includes image carousels and modals.",
+    id: 3,
+    name: "Automation - DB Cluster",
+    shortDescription: "Automation of high-availability database clusters using Ansible and Terraform to simplify infrastructure deployment.",
     description:
-      "This personal landing page was built using React to showcase my profile, portfolio, and achievements in a clean, responsive layout. The project incorporates dynamic UI elements like carousels (Swiper.js), modals for enlarged image previews, and smooth scroll-triggered animations. It follows a dark theme aesthetic and emphasizes clarity and modern web practices. The site also features routing for each section and is optimized for various screen sizes.",
-    date: "January 2023",
+      "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
+    date: "March 2023",
     images: [
-      webportfolio.webportfolio1,
-      webportfolio.webportfolio2,
-      webportfolio.webportfolio3,
+      automation.automation1,
+      automation.automation2,
+      automation.automation3,
+      automation.automation4,
     ],
-    github: "https://github.com/yourrepo1",
-    demo: "https://yourvideo.com/demo1",
+    github: "https://github.com/nurFattahh/HA-web-db-automation",
+    demo: "#", // Placeholder if no live demo
     features: [
-      "Responsive design with smooth navigation",
-      "Project and certificate gallery using Swiper.js",
-      "Modal preview for enlarged views",
-      "Scroll-triggered animations",
-      "Dark theme aesthetic"
+      "Infrastructure provisioning with Terraform",
+      "Automated DB cluster configuration using Ansible",
+      "High-availability setup with replication and failover",
+      "Modular and reusable infrastructure codebase",
+      "Logs and monitoring integrated into the deployment"
     ],
     tech: [
-      "React.js",
-      "CSS3",
-      "Bootstrap",
-      "Swiper.js",
-      "React Router"
+      "Terraform",
+      "Ansible",
+      "PostgreSQL Cluster",
+      "Linux (Ubuntu/CentOS)",
+      "Cloud Virtual Machines",
+      "Shell Script"
     ]
-  },
+  }, 
   {
     id: 4,
     name: "Computer Vision - Face Detection",
@@ -133,37 +164,6 @@ const projects = [
       "PyTorch"
     ]
   },
-  {
-    id: 3,
-    name: "Automation - DB Cluster",
-    shortDescription: "Automation of high-availability database clusters using Ansible and Terraform to simplify infrastructure deployment.",
-    description:
-      "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
-    date: "March 2023",
-    images: [
-      automation.automation1,
-      automation.automation2,
-      automation.automation3,
-      automation.automation4,
-    ],
-    github: "https://github.com/nurFattahh/HA-web-db-automation",
-    demo: "#", // Placeholder if no live demo
-    features: [
-      "Infrastructure provisioning with Terraform",
-      "Automated DB cluster configuration using Ansible",
-      "High-availability setup with replication and failover",
-      "Modular and reusable infrastructure codebase",
-      "Logs and monitoring integrated into the deployment"
-    ],
-    tech: [
-      "Terraform",
-      "Ansible",
-      "PostgreSQL Cluster",
-      "Linux (Ubuntu/CentOS)",
-      "Cloud Virtual Machines",
-      "Shell Script"
-    ]
-  }, 
   {
     id: 6,
     name: "Computer Vision - People Counter",

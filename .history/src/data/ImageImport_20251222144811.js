@@ -5,10 +5,9 @@ import cert4 from "../assets/Images/Experiences/cert4.jpg";
 import cert5 from "../assets/Images/Experiences/cert5.jpg";
 import cert6 from "../assets/Images/Experiences/cert6.jpg";
 import cert7 from "../assets/Images/Experiences/cert7.jpg";
-import cert8 from "../assets/Images/Experiences/cert8.jpg";
 
 export const certs = {
-    cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8
+    cert1, cert2, cert3, cert4, cert5, cert6, cert7
   };
   
 import docs1 from "../assets/Images/Experiences/Docs/docs31.jpg";

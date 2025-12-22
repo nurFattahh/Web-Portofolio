@@ -3,7 +3,7 @@ import { automation, arrhythmias, facedetection, fatiguard, gasmonitoring, webpo
 const projects = [
   {
     id: 1,
-    name: "Signal Processing - Arrhythmia Detection",
+    name: "Thesis - Arrhythmia Detection",
     shortDescription:
       "Undergraduate thesis on real-time ECG signal processing and R-peak detection using the Pan-Tompkins++ algorithm.",
     description:
@@ -102,6 +102,37 @@ const projects = [
     ]
   },
   {
+    id: 3,
+    name: "Automation - DB Cluster",
+    shortDescription: "Automation of high-availability database clusters using Ansible and Terraform to simplify infrastructure deployment.",
+    description:
+      "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
+    date: "March 2023",
+    images: [
+      automation.automation1,
+      automation.automation2,
+      automation.automation3,
+      automation.automation4,
+    ],
+    github: "https://github.com/nurFattahh/HA-web-db-automation",
+    demo: "#", // Placeholder if no live demo
+    features: [
+      "Infrastructure provisioning with Terraform",
+      "Automated DB cluster configuration using Ansible",
+      "High-availability setup with replication and failover",
+      "Modular and reusable infrastructure codebase",
+      "Logs and monitoring integrated into the deployment"
+    ],
+    tech: [
+      "Terraform",
+      "Ansible",
+      "PostgreSQL Cluster",
+      "Linux (Ubuntu/CentOS)",
+      "Cloud Virtual Machines",
+      "Shell Script"
+    ]
+  }, 
+  {
     id: 4,
     name: "Computer Vision - Face Detection",
     shortDescription: "A real-time face detection system using YOLOv5, trained on a custom dataset and deployed on a local machine for live video inference.",
@@ -133,37 +164,6 @@ const projects = [
       "PyTorch"
     ]
   },
-  {
-    id: 3,
-    name: "Automation - DB Cluster",
-    shortDescription: "Automation of high-availability database clusters using Ansible and Terraform to simplify infrastructure deployment.",
-    description:
-      "This project focuses on automating the provisioning and configuration of a high-availability (HA) database cluster. By leveraging Terraform for infrastructure as code (IaC) and Ansible for configuration management, it allows seamless deployment of a scalable and resilient DB cluster on cloud environments. The automation ensures that multiple database nodes are provisioned with correct replication, security configurations, and monitoring tools. I was responsible for writing the playbooks, managing infrastructure modules, and testing deployment flows.",
-    date: "March 2023",
-    images: [
-      automation.automation1,
-      automation.automation2,
-      automation.automation3,
-      automation.automation4,
-    ],
-    github: "https://github.com/nurFattahh/HA-web-db-automation",
-    demo: "#", // Placeholder if no live demo
-    features: [
-      "Infrastructure provisioning with Terraform",
-      "Automated DB cluster configuration using Ansible",
-      "High-availability setup with replication and failover",
-      "Modular and reusable infrastructure codebase",
-      "Logs and monitoring integrated into the deployment"
-    ],
-    tech: [
-      "Terraform",
-      "Ansible",
-      "PostgreSQL Cluster",
-      "Linux (Ubuntu/CentOS)",
-      "Cloud Virtual Machines",
-      "Shell Script"
-    ]
-  }, 
   {
     id: 6,
     name: "Computer Vision - People Counter",
