@@ -7,7 +7,6 @@ import Footer from "./components/Footer/Footer";
 
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Work from "./components/Work/Work";
 import Project from "./components/Project/Project";
 import Organization from "./components/Organization/Organization";
 import Experience from "./components/Experience/Experience";

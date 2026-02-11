@@ -1,0 +1,97 @@
+/* Section */
+#work {
+    padding: 70px 20px;
+    background-color: #212529;
+    color: #f8f9fa;
+  }
+  
+  #work h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .works-text {
+    color: #ffdd57;
+  }
+  
+  /* Card */
+  .work-card {
+    background-color: #2c3035;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 2px solid #3a3f44;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .work-card:hover {
+    transform: translateY(-5px);
+    border-color: #ffdd57;
+  }
+  
+  /* Text */
+  .work-position {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .work-company {
+    color: #ffdd57;
+    margin-bottom: 5px;
+  }
+  
+  .work-duration {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 15px;
+  }
+  
+  .work-description {
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #ddd;
+  }
+  
+  /* Tech badge */
+  .work-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .tech-badge {
+    background-color: #ffdd57;
+    color: #212529;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .work-logo {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    #work h2 {
+      font-size: 28px;
+    }
+  
+    .work-position {
+      font-size: 18px;
+    }
+  }
+  

@@ -5,11 +5,15 @@ import cert4 from "../assets/Images/Experiences/cert4.jpg";
 import cert5 from "../assets/Images/Experiences/cert5.jpg";
 import cert6 from "../assets/Images/Experiences/cert6.jpg";
 import cert7 from "../assets/Images/Experiences/cert7.jpg";
+import cert8 from "../assets/Images/Experiences/cert8.jpg";
 
 export const certs = {
-    cert1, cert2, cert3, cert4, cert5, cert6, cert7
+    cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8
   };
-  
+
+import docs11 from "../assets/Images/Experiences/Docs/docs11.jpeg";
+import docs21 from "../assets/Images/Experiences/Docs/docs21.JPG";
+import docs22 from "../assets/Images/Experiences/Docs/docs22.JPG";
 import docs1 from "../assets/Images/Experiences/Docs/docs31.jpg";
 import docs2 from "../assets/Images/Experiences/Docs/docs32.jpg";
 import docs3 from "../assets/Images/Experiences/Docs/docs41.jpg";
@@ -21,7 +25,7 @@ import docs8 from "../assets/Images/Experiences/Docs/docs71.jpg";
 import docs9 from "../assets/Images/Experiences/Docs/docs72.jpg";
 
 export const docs = {
-  docs1, docs2, docs3, docs4, docs5, docs6, docs7, docs8, docs9
+  docs11, docs21, docs22 ,docs1, docs2, docs3, docs4, docs5, docs6, docs7, docs8, docs9
 };
 
 import automation1 from "../assets/Images/Projects/Automation/db1.png";
@@ -34,12 +38,12 @@ export const automation = {
 }
 
 import arrhythmia1 from "../assets/Images/Projects/Arrhythmia/aritmia1.png";
-import arrhythmia2 from "../assets/Images/Projects/Arrhythmia/aritmia2.png";
+import arrhythmia2 from "../assets/Images/Projects/Arrhythmia/aritmia2.jpg";
 import arrhythmia3 from "../assets/Images/Projects/Arrhythmia/aritmia3.png";
-import arrhythmia4 from "../assets/Images/Projects/Arrhythmia/aritmia4.png";
+import arrhythmia4 from "../assets/Images/Projects/Arrhythmia/aritmia4.jpg";
 import arrhythmia5 from "../assets/Images/Projects/Arrhythmia/aritmia5.png";
 
-export const arrhythmia = {
+export const arrhythmias = {
     arrhythmia1, arrhythmia2, arrhythmia3, arrhythmia4, arrhythmia5
 }
 
@@ -93,3 +97,9 @@ import ecoplants9 from "../assets/Images/Projects/Ecoplants/ecoplants9.png";
 export const ecoplants = {
     ecoplants1, ecoplants3, ecoplants4, ecoplants5, ecoplants6, ecoplants7, ecoplants8, ecoplants9
 }
+
+import ldpLogo from "../assets/Images/Work/ldp.webp";
+
+export const workImages = {
+  ldpLogo,
+};

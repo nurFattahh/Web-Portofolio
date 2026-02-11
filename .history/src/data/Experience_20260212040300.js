@@ -8,7 +8,7 @@ const certifications = [
     description:
       "Served as a teaching assistant for the Basic Programming Practicum, guiding a class of 40 students in C++ fundamentals, including syntax, control structures, and basic algorithms.",
     date: "2023",
-    docs: ["Experiences/Docs/docs11.jpg"]
+    docs: ["Experiences/Docs/docs11.jpeg"]
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const certifications = [
     description:
       "Assisted in teaching digital system fundamentals to 40 students, covering logic gates, flip-flops, multiplexers, arithmetic circuits, and circuit simulation using Multisim.",
     date: "2023",
-    docs: ["Experiences/Docs/docs11.jpg"]
+    docs: ["Experiences/Docs/docs21.JPG", "Experiences/Docs/docs22.JPG"]
   },
   {
     id: 3,
@@ -68,9 +68,9 @@ const certifications = [
   {
     id: 8,
     image: certs.cert8,
-    title: "Teaching Assistant on Workshop Smart Monitoring with NB-IoT: From MQTT to Grafana Visualization",
+    title: "Workshop Smart Monitoring with NB-IoT: From MQTT to Grafana Visualization",
     description:
-      "Assisted in an Embedded Systems practicum for second years students, focusing on real-time systems, FSM, fault tolerance, and low power using Arduino to 40 students.",
+      "Participated as a teaching assistant in a workshop focused on IoT system, developing an energy usage monitoring system by collecting electricity data from PLN, transmitting it to InfluxDB via Telegraf, and visualizing the data in real-time using Grafana. Guiding participants through hands-on projects and real-time integration.",
     date: "2025",
     docs: [docs.docs10, docs.docs11]
   }

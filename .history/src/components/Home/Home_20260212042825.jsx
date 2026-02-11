@@ -53,7 +53,7 @@ const Home = () => (
             
           </div>
           <div className="mt-5 text-center">
-              Feel free to  <span className="connect-text">connect</span> with me
+              Feel free to  <a href="https://www.linkedin.com/in/muhammad-nur-fattah/"><span className="connect-text">connect</span></a> with me
             </div>
         </div>
       </div>

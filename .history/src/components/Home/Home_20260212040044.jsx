@@ -39,7 +39,7 @@ const Home = () => (
               </a>
             </div>
             <div className="col-3 text-center">
-              <a href="https://www.linkedin.com/in/muhammad-nur-fattah/" target="_blank" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/muhammad-nur-fattah-21497a248/" target="_blank" title="LinkedIn">
                 <i className="fab fa-linkedin"></i>
                 <div className="social-text">LinkedIn</div>
               </a>
