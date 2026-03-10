@@ -12,9 +12,9 @@ export const certs = {
     cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8, cert9
   };
 
-import docs01 from "../assets/Images/Experiences/Docs/docs11.jpeg";
-import docs02 from "../assets/Images/Experiences/Docs/docs21.JPG";
-import docs03 from "../assets/Images/Experiences/Docs/docs22.JPG";
+import docs11 from "../assets/Images/Experiences/Docs/docs11.jpeg";
+import docs21 from "../assets/Images/Experiences/Docs/docs21.JPG";
+import docs22 from "../assets/Images/Experiences/Docs/docs22.JPG";
 import docs1 from "../assets/Images/Experiences/Docs/docs31.jpg";
 import docs2 from "../assets/Images/Experiences/Docs/docs32.jpg";
 import docs3 from "../assets/Images/Experiences/Docs/docs41.jpg";
@@ -32,7 +32,7 @@ import docs14 from "../assets/Images/Experiences/Docs/docs103.jpeg";
 import docs15 from "../assets/Images/Experiences/Docs/docs104.jpeg";
 
 export const docs = {
-  docs01, docs02, docs03 ,docs1, docs2, docs3, docs4, docs5, docs6, docs7, docs8, docs9, docs10, docs11, docs12, docs13, docs14, docs15
+  docs11, docs21, docs22 ,docs1, docs2, docs3, docs4, docs5, docs6, docs7, docs8, docs9, docs10, docs11, docs12, docs13, docs14, docs15
 };
 
 import automation1 from "../assets/Images/Projects/Automation/db1.png";

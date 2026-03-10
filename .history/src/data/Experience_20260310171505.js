@@ -8,7 +8,7 @@ const certifications = [
     description:
       "Served as a teaching assistant for the Basic Programming Practicum, guiding a class of 40 students in C++ fundamentals, including syntax, control structures, and basic algorithms.",
     date: "2023",
-    docs: [docs.docs01]
+    docs: [docs.docs11]
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const certifications = [
     description:
       "Assisted in teaching digital system fundamentals to 40 students, covering logic gates, flip-flops, multiplexers, arithmetic circuits, and circuit simulation using Multisim.",
     date: "2023",
-    docs: [docs.docs02]
+    docs: [docs.docs22]
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ const certifications = [
     title: "Completion Student Employee Robotics and Embedded System Laboratory",
     description:
       "Completed a student employee program at the Robotics and Embedded System Laboratory, assisting in laboratory activities, supporting research and practical sessions, and working on embedded systems and IoT-related projects.",
-    date: "2025",
+    date: "2026",
     docs: [docs.docs12, docs.docs13, docs.docs14, docs.docs15]
   }
 ];

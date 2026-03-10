@@ -17,7 +17,7 @@ const certifications = [
     description:
       "Assisted in teaching digital system fundamentals to 40 students, covering logic gates, flip-flops, multiplexers, arithmetic circuits, and circuit simulation using Multisim.",
     date: "2023",
-    docs: [docs.docs02]
+    docs: [docs.docs02, docs.docs03]
   },
   {
     id: 3,

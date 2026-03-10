@@ -16,7 +16,7 @@ const Home = () => (
       <div className="col-md-6">
         <h1>Hi There!</h1>
         <p>
-          I am Muhammad Nur Fattah, a Computer Engineering graduate at Brawijaya University. Welcome to my
+          I am Muhammad Nur Fattah, a Student of Computer Engineering at Brawijaya University. Welcome to my
           portfolio where I showcase my work, experience, and achievements. Feel free to explore and learn more about
           what I do.
         </p>
@@ -53,7 +53,7 @@ const Home = () => (
             
           </div>
           <div className="mt-5 text-center">
-              Feel free to  <span className="connect-text">connect</span> with me
+              Feel free to  <span className="connect-text"><a href="https://www.linkedin.com/in/muhammad-nur-fattah/" target="_blank" className="connect-text">connect</a></span> with me
             </div>
         </div>
       </div>

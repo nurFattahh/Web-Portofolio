@@ -12,10 +12,8 @@ const About = () => {
           Computer Engineering Graduate at <strong>Brawijaya University</strong>.
         </p>
         <p className="about-description">
-          I specialize in <strong>Machine Learning</strong>,{" "}
-          <strong>IoT</strong>, {" "}
-          <strong>artificial intelligence</strong>, {" "}
-          <strong>data science</strong>, and{" "}
+          I specialize in <strong>software development</strong>,{" "}
+          <strong>artificial intelligence</strong>, and{" "}
           <strong>embedded systems</strong>, with a keen interest in solving
           real-world problems through technology. Over the course of my academic
           journey, I have worked on various projects, from{" "}

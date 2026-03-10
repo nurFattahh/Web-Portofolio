@@ -8,14 +8,12 @@ const About = () => {
       <div className="container">
         <h2 className="about-title">About <span className="me-text">Me</span></h2>
         <p className="about-description">
-          Hello! My name is <strong>Muhammad Nur Fattah</strong>, a 
-          Computer Engineering Graduate at <strong>Brawijaya University</strong>.
+          Hello! My name is <strong>Muhammad Nur Fattah</strong>, a passionate
+          Computer Engineering student at <strong>Brawijaya University</strong>.
         </p>
         <p className="about-description">
-          I specialize in <strong>Machine Learning</strong>,{" "}
-          <strong>IoT</strong>, {" "}
-          <strong>artificial intelligence</strong>, {" "}
-          <strong>data science</strong>, and{" "}
+          I specialize in <strong>software development</strong>,{" "}
+          <strong>artificial intelligence</strong>, and{" "}
           <strong>embedded systems</strong>, with a keen interest in solving
           real-world problems through technology. Over the course of my academic
           journey, I have worked on various projects, from{" "}
