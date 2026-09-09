@@ -191,8 +191,3 @@
     font-size: 15px !important;
   }
 }
-
-#home .col-md-6:nth-child(2) {
-  position: relative;
-  top: -30px;
-}

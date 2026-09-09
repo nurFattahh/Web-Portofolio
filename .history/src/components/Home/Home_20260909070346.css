@@ -1,0 +1,116 @@
+```css
+/* Right Content */
+.home-content {
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffdd57;
+}
+
+.home-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #e0e0e0;
+}
+
+/* Social Media */
+.social-media {
+  width: 100%;
+}
+
+.social-media a {
+  font-size: 36px;
+  color: #f8f9fa;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #ffdd57;
+}
+
+.social-text {
+  font-size: 14px;
+  color: #f8f9fa;
+}
+
+/* Connect */
+.connect-text-wrapper {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.connect-text {
+  color: #ffdd57;
+  font-weight: bold;
+}
+
+/* Download CV */
+.cv-download-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: 180px;
+  margin: 20px auto 0;
+  padding: 11px 20px;
+
+  border: 2px solid #ffdd57;
+  border-radius: 8px;
+
+  color: #ffdd57 !important;
+  font-size: 16px !important;
+  font-weight: bold;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.cv-download-box i {
+  font-size: 18px;
+}
+
+.cv-download-box:hover {
+  background-color: #ffdd57;
+  color: #222 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 221, 87, 0.25);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0 10px;
+  }
+
+  .social-media a {
+    font-size: 28px;
+  }
+
+  .social-text {
+    font-size: 12px;
+  }
+
+  .connect-text-wrapper {
+    margin-top: 30px;
+  }
+
+  .cv-download-box {
+    width: 170px;
+    padding: 10px 18px;
+  }
+}
+```

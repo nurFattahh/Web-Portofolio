@@ -32,29 +32,45 @@ const Home = () => (
                 <div className="social-text">Email</div>
               </a>
             </div>
+
             <div className="col-3 text-center">
               <a href="https://instagram.com/mnurfatth" target="_blank" title="Instagram">
                 <i className="fab fa-instagram"></i>
                 <div className="social-text">Instagram</div>
               </a>
             </div>
+
             <div className="col-3 text-center">
-              <a href="https://www.linkedin.com/in/muhammad-nur-fattah/" target="_blank" title="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/muhammad-nur-fattah/"
+                target="_blank"
+                title="LinkedIn"
+              >
                 <i className="fab fa-linkedin"></i>
                 <div className="social-text">LinkedIn</div>
               </a>
             </div>
+
             <div className="col-3 text-center">
               <a href="https://github.com/NurFattahh" target="_blank" title="GitHub">
                 <i className="fab fa-github"></i>
                 <div className="social-text">GitHub</div>
               </a>
             </div>
-            
           </div>
+
           <div className="mt-5 text-center">
-              Feel free to  <span className="connect-text">connect</span> with me
-            </div>
+            Feel free to <span className="connect-text">connect</span> with me
+          </div>
+
+          <a
+            href="/CV_Fattah_EN.pdf"
+            download
+            className="cv-download-box"
+          >
+            <i className="fas fa-file-download"></i>
+            <span>Download CV</span>
+          </a>
         </div>
       </div>
     </div>
