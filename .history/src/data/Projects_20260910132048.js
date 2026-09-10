@@ -20,7 +20,7 @@ const projects = [
       autoparking.AutoPark8,
       autoparking.AutoPark9
     ],
-    github: "https://github.com/nurFattahh/ParkingManagement",
+    github: "https://github.com/nurFattahh",
     demo: "#",
     features: [
       "Automated vehicle entry and parking transaction recording",
@@ -59,8 +59,8 @@ const projects = [
       marketanalysis.trendanalysis5,
       marketanalysis.trendanalysis6
     ],
-    github: "https://github.com/nurFattahh/e-commerce-tren-analysis",
-    demo: "https://e-commerce-tren-analysis-dicoding-fattah.streamlit.app/",
+    github: "https://github.com/nurFattahh",
+    demo: "#",
     features: [
       "Data cleaning and preprocessing",
       "Exploratory data analysis",
@@ -241,36 +241,36 @@ const projects = [
       "Shell Script"
     ]
   }, 
-  // {
-  //   id: 6,
-  //   name: "Computer Vision - People Counter",
-  //   shortDescription: "A real-time people counting system using a camera and object detection model to monitor foot traffic in specific areas.",
-  //   description: "This project implements a real-time people counting system using computer vision techniques. A camera captures video input, and a YOLO-based object detection model processes each frame to detect and count the number of people passing through predefined zones. It is designed to help analyze foot traffic in locations such as malls, offices, or events. The counter updates dynamically and can be extended to include data analytics or notifications. The system focuses on efficiency, low latency, and easy deployment using lightweight frameworks.",
-  //   date: "February 2025",
-  //   images: [
-  //     "PeopleCounter/pc1.png",
-  //     "PeopleCounter/pc2.png",
-  //     "PeopleCounter/pc3.png",
-  //     "PeopleCounter/pc4.png",
-  //     "PeopleCounter/pc5.png"
-  //   ],
-  //   github: "https://github.com/nurFattahh/people-counter-cv",
-  //   demo: "https://yourvideo.com/people-counter-demo",  // Ganti jika ada video
-  //   features: [
-  //     "Real-time video processing for people detection",
-  //     "YOLO-based object detection model",
-  //     "Customizable detection zones",
-  //     "Live counter and visual overlay",
-  //     "Scalable for various public environments"
-  //   ],
-  //   tech: [
-  //     "Python",
-  //     "OpenCV",
-  //     "YOLOv5",
-  //     "NumPy",
-  //     "Tkinter / Streamlit (for interface)"
-  //   ]
-  // },  
+  {
+    id: 6,
+    name: "Computer Vision - People Counter",
+    shortDescription: "A real-time people counting system using a camera and object detection model to monitor foot traffic in specific areas.",
+    description: "This project implements a real-time people counting system using computer vision techniques. A camera captures video input, and a YOLO-based object detection model processes each frame to detect and count the number of people passing through predefined zones. It is designed to help analyze foot traffic in locations such as malls, offices, or events. The counter updates dynamically and can be extended to include data analytics or notifications. The system focuses on efficiency, low latency, and easy deployment using lightweight frameworks.",
+    date: "February 2025",
+    images: [
+      "PeopleCounter/pc1.png",
+      "PeopleCounter/pc2.png",
+      "PeopleCounter/pc3.png",
+      "PeopleCounter/pc4.png",
+      "PeopleCounter/pc5.png"
+    ],
+    github: "https://github.com/nurFattahh/people-counter-cv",
+    demo: "https://yourvideo.com/people-counter-demo",  // Ganti jika ada video
+    features: [
+      "Real-time video processing for people detection",
+      "YOLO-based object detection model",
+      "Customizable detection zones",
+      "Live counter and visual overlay",
+      "Scalable for various public environments"
+    ],
+    tech: [
+      "Python",
+      "OpenCV",
+      "YOLOv5",
+      "NumPy",
+      "Tkinter / Streamlit (for interface)"
+    ]
+  },  
   {
     id: 7,
     name: "Embedded System - Accident Detection",
@@ -335,7 +335,7 @@ const projects = [
   {
     id: 9,
     name: "IoT - Monitoring System Design",
-    description: "Dokum ilang",
+    description: "This is a description of Project 4. It was developed using Django.",
     date: "April 2023",
     images: [
       gasmonitoring.gasmonitoring1,

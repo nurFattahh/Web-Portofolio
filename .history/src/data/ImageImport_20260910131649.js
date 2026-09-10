@@ -75,7 +75,7 @@ import trendanalysis4 from "../assets/Images/Projects/MarketAnalysis/MarketAnaly
 import trendanalysis5 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis5.png";
 import trendanalysis6 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis6.png";
 
-export const marketanalysis = {   
+export const trendanalysis = {   
     trendanalysis1, trendanalysis2, trendanalysis3, trendanalysis4, trendanalysis5, trendanalysis6
 }
 

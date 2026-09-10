@@ -68,16 +68,12 @@ export const autoparking = {
     AutoPark1, AutoPark2, AutoPark3, AutoPark4, AutoPark5, AutoPark6, AutoPark7, AutoPark8, AutoPark9
 }
 
-import trendanalysis1 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis1.png";
-import trendanalysis2 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis2.png";
-import trendanalysis3 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis3.png";
-import trendanalysis4 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis4.png";
-import trendanalysis5 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis5.png";
-import trendanalysis6 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis6.png";
-
-export const marketanalysis = {   
-    trendanalysis1, trendanalysis2, trendanalysis3, trendanalysis4, trendanalysis5, trendanalysis6
-}
+import trendanalysis1 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis.png";
+import trendanalysis2 from "../assets/Images/Projects/MarketAnalysis/trendanalysis2.png";
+import trendanalysis3 from "../assets/Images/Projects/MarketAnalysis/trendanalysis3.png";
+import trendanalysis4 from "../assets/Images/Projects/MarketAnalysis/trendanalysis4.png";
+import trendanalysis5 from "../assets/Images/Projects/MarketAnalysis/trendanalysis5.png";
+import trendanalysis6 from "../assets/Images/Projects/MarketAnalysis/trendanalysis6.png";
 
 import facedetection1 from "../assets/Images/Projects/FaceDetection/fd1.png";
 import facedetection2 from "../assets/Images/Projects/FaceDetection/fd2.png";

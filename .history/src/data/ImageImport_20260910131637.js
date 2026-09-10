@@ -75,10 +75,6 @@ import trendanalysis4 from "../assets/Images/Projects/MarketAnalysis/MarketAnaly
 import trendanalysis5 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis5.png";
 import trendanalysis6 from "../assets/Images/Projects/MarketAnalysis/MarketAnalysis6.png";
 
-export const marketanalysis = {   
-    trendanalysis1, trendanalysis2, trendanalysis3, trendanalysis4, trendanalysis5, trendanalysis6
-}
-
 import facedetection1 from "../assets/Images/Projects/FaceDetection/fd1.png";
 import facedetection2 from "../assets/Images/Projects/FaceDetection/fd2.png";
 import facedetection3 from "../assets/Images/Projects/FaceDetection/fd3.png";

@@ -1,26 +1,18 @@
-import { automation, arrhythmias, autoparking, marketanalysis, facedetection, fatiguard, gasmonitoring, webportfolio, ecoplants } from "./ImageImport.js";
+import { automation, arrhythmias, facedetection, fatiguard, gasmonitoring, webportfolio, ecoplants } from "./ImageImport.js";
 
 const projects = [
   {
     id: 10,
-    name: "Fullstack & AI - Auto Parking Management",
+    name: "Backend & Computer Vision - Auto Parking Management",
     shortDescription:
       "A web-based parking management system integrating a Golang backend with real-time vehicle and license plate detection.",
     description:
       "Auto Parking Management is a web-based parking management system designed to automate vehicle entry recording and parking slot monitoring. The system uses a Golang backend with PostgreSQL and Redis for data management and caching, while a React frontend provides the management interface. Computer vision is integrated using YOLO to detect vehicles and license plates from camera input, enabling automated parking transactions and vehicle recording.",
-    date: "2026",
+    date: "2025",
     images: [
-      autoparking.AutoPark1,
-      autoparking.AutoPark2,
-      autoparking.AutoPark3,
-      autoparking.AutoPark4,
-      autoparking.AutoPark5,
-      autoparking.AutoPark6,
-      autoparking.AutoPark7,
-      autoparking.AutoPark8,
-      autoparking.AutoPark9
+      // Tambahkan image project di sini
     ],
-    github: "https://github.com/nurFattahh/ParkingManagement",
+    github: "https://github.com/nurFattahh",
     demo: "#",
     features: [
       "Automated vehicle entry and parking transaction recording",
@@ -28,6 +20,7 @@ const projects = [
       "Vehicle and license plate detection using YOLO",
       "RESTful API developed with Golang and Gin",
       "PostgreSQL database for transaction and vehicle data",
+      "Redis integration for caching and application performance",
       "Containerized development using Docker"
     ],
     tech: [
@@ -50,17 +43,12 @@ const projects = [
       "A data analysis project developed as part of the Dicoding Data Science learning program to explore market trends and generate data-driven insights.",
     description:
       "Market Trend Analysis is a data analysis project developed as part of the Dicoding Data Science learning program. The project focuses on exploring and analyzing market data to identify trends, patterns, and insights that can support data-driven decision making. The analysis includes data cleaning, exploratory data analysis, visualization, and interpretation of key findings using Python.",
-    date: "2026",
+    date: "2025",
     images: [
-      marketanalysis.trendanalysis1,
-      marketanalysis.trendanalysis2,
-      marketanalysis.trendanalysis3,
-      marketanalysis.trendanalysis4,
-      marketanalysis.trendanalysis5,
-      marketanalysis.trendanalysis6
+      // Tambahkan image project di sini
     ],
-    github: "https://github.com/nurFattahh/e-commerce-tren-analysis",
-    demo: "https://e-commerce-tren-analysis-dicoding-fattah.streamlit.app/",
+    github: "https://github.com/nurFattahh",
+    demo: "#",
     features: [
       "Data cleaning and preprocessing",
       "Exploratory data analysis",
@@ -241,36 +229,36 @@ const projects = [
       "Shell Script"
     ]
   }, 
-  // {
-  //   id: 6,
-  //   name: "Computer Vision - People Counter",
-  //   shortDescription: "A real-time people counting system using a camera and object detection model to monitor foot traffic in specific areas.",
-  //   description: "This project implements a real-time people counting system using computer vision techniques. A camera captures video input, and a YOLO-based object detection model processes each frame to detect and count the number of people passing through predefined zones. It is designed to help analyze foot traffic in locations such as malls, offices, or events. The counter updates dynamically and can be extended to include data analytics or notifications. The system focuses on efficiency, low latency, and easy deployment using lightweight frameworks.",
-  //   date: "February 2025",
-  //   images: [
-  //     "PeopleCounter/pc1.png",
-  //     "PeopleCounter/pc2.png",
-  //     "PeopleCounter/pc3.png",
-  //     "PeopleCounter/pc4.png",
-  //     "PeopleCounter/pc5.png"
-  //   ],
-  //   github: "https://github.com/nurFattahh/people-counter-cv",
-  //   demo: "https://yourvideo.com/people-counter-demo",  // Ganti jika ada video
-  //   features: [
-  //     "Real-time video processing for people detection",
-  //     "YOLO-based object detection model",
-  //     "Customizable detection zones",
-  //     "Live counter and visual overlay",
-  //     "Scalable for various public environments"
-  //   ],
-  //   tech: [
-  //     "Python",
-  //     "OpenCV",
-  //     "YOLOv5",
-  //     "NumPy",
-  //     "Tkinter / Streamlit (for interface)"
-  //   ]
-  // },  
+  {
+    id: 6,
+    name: "Computer Vision - People Counter",
+    shortDescription: "A real-time people counting system using a camera and object detection model to monitor foot traffic in specific areas.",
+    description: "This project implements a real-time people counting system using computer vision techniques. A camera captures video input, and a YOLO-based object detection model processes each frame to detect and count the number of people passing through predefined zones. It is designed to help analyze foot traffic in locations such as malls, offices, or events. The counter updates dynamically and can be extended to include data analytics or notifications. The system focuses on efficiency, low latency, and easy deployment using lightweight frameworks.",
+    date: "February 2025",
+    images: [
+      "PeopleCounter/pc1.png",
+      "PeopleCounter/pc2.png",
+      "PeopleCounter/pc3.png",
+      "PeopleCounter/pc4.png",
+      "PeopleCounter/pc5.png"
+    ],
+    github: "https://github.com/nurFattahh/people-counter-cv",
+    demo: "https://yourvideo.com/people-counter-demo",  // Ganti jika ada video
+    features: [
+      "Real-time video processing for people detection",
+      "YOLO-based object detection model",
+      "Customizable detection zones",
+      "Live counter and visual overlay",
+      "Scalable for various public environments"
+    ],
+    tech: [
+      "Python",
+      "OpenCV",
+      "YOLOv5",
+      "NumPy",
+      "Tkinter / Streamlit (for interface)"
+    ]
+  },  
   {
     id: 7,
     name: "Embedded System - Accident Detection",
@@ -335,7 +323,7 @@ const projects = [
   {
     id: 9,
     name: "IoT - Monitoring System Design",
-    description: "Dokum ilang",
+    description: "This is a description of Project 4. It was developed using Django.",
     date: "April 2023",
     images: [
       gasmonitoring.gasmonitoring1,
