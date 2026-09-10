@@ -283,7 +283,7 @@ p.experience-date {
   .experience-content {
     width: 100%;
     max-width: 600px;
-    padding: 0 20px;
+    padding: 0 40px;
     box-sizing: border-box;
     order: 2 !important;
     text-align: left;

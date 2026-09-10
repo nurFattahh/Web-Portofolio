@@ -8,15 +8,15 @@ import cert7 from "../assets/Images/Experiences/cert7.jpg";
 import cert8 from "../assets/Images/Experiences/cert8.jpg";
 import cert9 from "../assets/Images/Experiences/cert9.jpg";
 import cert10 from "../assets/Images/Experiences/cert10.jpg";
-import cert11 from "../assets/Images/Experiences/cert11.png";
-import cert12 from "../assets/Images/Experiences/cert12.png";
-import cert13 from "../assets/Images/Experiences/cert13.png";
-import cert14 from "../assets/Images/Experiences/cert14.png";
-import cert15 from "../assets/Images/Experiences/cert15.png";
-import cert16 from "../assets/Images/Experiences/cert16.png";
+import cert11 from "../assets/Images/Experiences/cert11.jpg";
+import cert12 from "../assets/Images/Experiences/cert12.jpg";
+import cert13 from "../assets/Images/Experiences/cert13.jpg";
+import cert14 from "../assets/Images/Experiences/cert14.jpg";
+import cert15 from "../assets/Images/Experiences/cert15.jpg";
+import cert16 from "../assets/Images/Experiences/cert16.jpg";
 
 export const certs = {
-    cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8, cert9, cert10, cert11, cert12, cert13, cert14, cert15, cert16
+    cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8, cert9
   };
 
 import docs01 from "../assets/Images/Experiences/Docs/docs11.jpeg";

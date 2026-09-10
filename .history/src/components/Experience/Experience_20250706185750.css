@@ -7,7 +7,7 @@
 .experience-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px; /* Biar aman dari overflow kiri-kanan */
   box-sizing: border-box;
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -19,47 +19,13 @@
 .experience-title {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
   color: #ffdd57;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-/* Category Tabs */
-
-.experience-tabs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 60px;
-  flex-wrap: wrap;
-}
-
-.experience-tab {
-  padding: 10px 22px;
-  background-color: transparent;
-  color: #f8f9fa;
-  border: 2px solid #ffdd57;
-  border-radius: 8px;
-  font-size: 15px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.experience-tab:hover {
-  background-color: #ffdd57;
-  color: #1d1d1d;
-}
-
-.experience-tab.active {
-  background-color: #ffdd57;
-  color: #1d1d1d;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Grid-like layout */
-
 .experience-row {
   display: flex;
   flex-wrap: wrap;
@@ -77,26 +43,11 @@
   object-fit: cover;
 }
 
-.experience-img {
-  width: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.experience-img img {
-  width: auto;
-  height: 250px;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 12px;
-}
 .experience-content {
   flex: 1;
   min-width: 280px;
   max-width: 500px;
   padding: 0 10px;
-  text-align: left;
 }
 
 .experience-content h3 {
@@ -111,25 +62,20 @@
 }
 
 /* Alternate layout */
-
 .row-left .experience-img {
   order: 1;
 }
-
 .row-left .experience-content {
   order: 2;
 }
-
 .row-right .experience-img {
   order: 2;
 }
-
 .row-right .experience-content {
   order: 1;
 }
 
 /* Button */
-
 .doc-button {
   margin-top: 15px;
   padding: 8px 16px;
@@ -141,13 +87,11 @@
   cursor: pointer;
   transition: background 0.3s;
 }
-
 .doc-button:hover {
   background-color: #e6c200;
 }
 
 /* Documentation Gallery */
-
 .doc-gallery-wrapper {
   margin-top: 20px;
   padding: 10px 0;
@@ -169,7 +113,6 @@
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-
 .doc-img:hover {
   transform: scale(1.05);
 }
@@ -178,16 +121,7 @@ p.experience-date {
   color: #e6c200;
 }
 
-/* Empty Category */
-
-.empty-category {
-  text-align: center;
-  padding: 50px 20px;
-  color: #ccc;
-}
-
 /* Modal Image Preview */
-
 .image-modal {
   position: fixed;
   top: 0;
@@ -230,112 +164,50 @@ p.experience-date {
 }
 
 /* Responsive */
-
 @media (max-width: 768px) {
-  .experience-section {
-    padding: 50px 15px;
-  }
-
-  .experience-container {
-    padding: 0 5px;
-  }
-
-  .experience-title {
-    font-size: 28px;
-    line-height: 1.3;
-    margin-bottom: 30px;
-  }
-
-  .experience-tabs {
-    gap: 8px;
-    margin-bottom: 45px;
-  }
-
-  .experience-tab {
-    padding: 9px 14px;
-    font-size: 13px;
-  }
-
   .experience-row {
     flex-direction: column;
-    align-items: center;
     text-align: center;
-    gap: 25px;
-    margin-bottom: 55px;
   }
 
   .experience-img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
     order: 1 !important;
   }
 
   .experience-img img {
-    width: auto;
-    max-width: 90%;
-    height: 220px;
-    object-fit: contain;
+    width: 100%;
+    height: auto;
+    
     margin: 0 auto;
     display: block;
   }
 
   .experience-content {
-    width: 100%;
-    max-width: 600px;
-    padding: 0 20px;
-    box-sizing: border-box;
-    order: 2 !important;
-    text-align: left;
-  }
-
-  .experience-content h3 {
-    font-size: 21px;
-    line-height: 1.4;
-    margin-bottom: 8px;
-  }
-
-  .experience-content p {
-    font-size: 15px;
-    line-height: 1.7;
-    text-align: justify;
+    padding: 0 10px;
   }
 
   p.experience-date {
     font-size: 14px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
     color: #e6c200;
   }
 
-  .doc-button {
-    font-size: 13px;
-    padding: 8px 14px;
+  .experience-content {
+    order: 2 !important;
+    max-width: 100%;
   }
 
   .doc-gallery {
-    justify-content: flex-start;
-    gap: 8px;
+    justify-content: center;
   }
 
   .doc-img {
-    width: 90px;
-  }
-
-  .modal-content-img {
-    max-width: 95%;
+    width: 100px;
   }
 
   .modal-content-img img {
     width: 90vw;
-    max-height: 80vh;
-    object-fit: contain;
-  }
-
-  .close-modal {
-    top: -8px;
-    right: -8px;
-    font-size: 24px;
-    padding: 3px 8px;
   }
 }
+

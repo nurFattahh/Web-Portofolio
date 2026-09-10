@@ -139,7 +139,7 @@
   
   @media (max-width: 768px) {
     .about-section {
-      padding: 40px 20px; /* Kurangi padding agar kontennya nyaman di layar kecil */
+      padding: 40px 40px; /* Kurangi padding agar kontennya nyaman di layar kecil */
     }
   
     .about-title {
